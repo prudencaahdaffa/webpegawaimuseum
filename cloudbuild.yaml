@@ -1,4 +1,5 @@
-# Build Docker image
+steps:
+  # Build Docker image
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/$PROJECT_ID/webpegawaimuseum', '.']
 
