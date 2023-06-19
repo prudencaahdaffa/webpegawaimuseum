@@ -27,5 +27,3 @@ steps:
       - '512Mi'
       - '--cpu'
       - '1'
-
-# Optionally, you can include additional steps for running tests, linting, etc.
