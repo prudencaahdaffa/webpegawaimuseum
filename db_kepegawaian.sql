@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2022 at 06:30 AM
+-- Generation Time: Dec 12, 2022 at 04:08 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -41,7 +41,8 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`id`, `username`, `password`, `nama`, `foto`) VALUES
 (1, 'daffa', '135a4e22cda0e0a68499e6d6e2a861aa', 'Prudenca Ahmad Daffa Kurnia', 'profil12.jpg'),
-(2, 'Azis', 'ece4d80d2597f084b564b95c1bf2f224', 'Muhammad Azis Budi Jasman', 'profil2.jpg');
+(2, 'azis', 'ece4d80d2597f084b564b95c1bf2f224', 'Muhammad Azis Budi Jasman', 'profil2.jpg'),
+(3, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'nyoba.png');
 
 -- --------------------------------------------------------
 
@@ -177,7 +178,7 @@ ALTER TABLE `posisi`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `kota`

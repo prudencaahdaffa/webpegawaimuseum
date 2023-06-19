@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => '34.124.244.230',
+	'username' => 'daffa',
+	'password' => 'Fv3NyZD\d}@BvKO`',
 	'database' => 'db_kepegawaian',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
