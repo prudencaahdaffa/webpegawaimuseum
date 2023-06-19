@@ -26,7 +26,7 @@ RUN chown -R www-data:www-data /var/www/html
 RUN chmod -R 755 /var/www/html
 
 # Tentukan port yang akan diexpose oleh container
-EXPOSE 80
+EXPOSE 8088
 
 # Perintah yang akan dijalankan ketika container dijalankan
 CMD ["apache2-foreground"]
